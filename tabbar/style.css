@@ -1,0 +1,45 @@
+@charset "utf-8";
+img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+body {
+    margin: 0;
+}
+
+.header-area {
+    background-color: aliceblue;
+    color: #000;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tab_menu li:hover {
+    opacity: .4;
+}
+
+.tab_box {
+    display: none;
+}
+
+.tab_box.active {
+    display: block;
+}
